@@ -1,0 +1,28 @@
+algoritmo "areaquadrado"
+
+// Função : calcular a área de quadrado
+// Autor : Vinicius Luz dos Santos
+// Data : 28/02/2024
+// Seção de Declarações 
+
+var
+
+//area varialvel de entrada e saída
+//lado variavel de entrada
+area, lado: real
+
+inicio
+
+//Entrada
+escreva("Qual é o lado do quadrado: ")
+leia(lado)
+
+//Processamento
+area <- lado^2
+
+//Saída
+escreval("A área do quadrado é: ", area)
+escreva("Obrigado por usar os programas do Vini :)")
+
+// Seção de Comandos 
+fimalgoritmo
